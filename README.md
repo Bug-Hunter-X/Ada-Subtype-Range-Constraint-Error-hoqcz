@@ -1,0 +1,1 @@
+This example demonstrates a common error in Ada programming: exceeding the range of a subtype.  The code defines a subtype `My_Sub_Type` with a range of 1..10.  The program then increments the variable `X` beyond this range.  This will result in a `Constraint_Error` exception at runtime. The solution shows how to handle this error using exception handling.
